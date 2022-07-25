@@ -121,7 +121,7 @@ def experiment(datatype, udata):
     return est_error_pu_mean, est_error_pubp_mean, est_error_pu_std, est_error_pubp_std, est_error_dr_mean, est_error_dr_std
 
 def main():
-    datasets = ["ijcnn1"]
+    datasets = ["mushroom"]
     udata = [800, 1600, 3200]
     priors = [0.2, 0.4, 0.6, 0.8]
 
